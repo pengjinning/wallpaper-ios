@@ -1,4 +1,8 @@
 # Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+#source 'https://github.com/CocoaPods/Specs.git'
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+
 use_frameworks!
 
 def shared_pods
@@ -7,7 +11,7 @@ def shared_pods
 end
 
 target 'wallpaperapp' do
-  platform :ios, '12.0'
+  platform :ios, '13.0'
   shared_pods
   
   pod 'RxDataSources'

@@ -21,7 +21,7 @@ DEPENDENCIES:
   - SnapKit
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - Differentiator
     - Kingfisher
@@ -41,6 +41,6 @@ SPEC CHECKSUMS:
   RxSwift: 92fcf68dfef21f3e2ab1965363d9e7b3d787597e
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: 1c6a77f354b95cf9077b329ff5b0e5f6e8327314
+PODFILE CHECKSUM: c698e666a9f28d36d6e9c8ae10043768d17f5fa8
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.13.0
